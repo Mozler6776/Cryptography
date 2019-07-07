@@ -1,0 +1,55 @@
+--------------------------------------------------------- English ---------------------------------------------------------
+
+Encryption with Cumulative Method
+
+
+A B C D E F G H I J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+
+In the example given below, the values of the letters are collected as cumulative cumulative method from left to right, and these totals are divided into 3 after adding / subtracting enough 29 when necessary.
+
+Cyber
+
+C (3) / 3 = 1 ~ A
+
+Cy (3 + 25) / 3 = 9 ~ I
+
+Cyb (3 + 25 + 2) / 3 = 10 ~ J
+
+Cybe (3 + 25 + 2 + 5) / 3 = 11 ~ K
+
+Cyber (3 + 25 + 2 + 5 + 18) / 3 = 21 ~ U
+
+Encrypted Answer: “AIJKU”
+
+The longer the process, the greater the value of the letters, where 29 would exceed the limit of letters would have done -29 subtraction.
+
+If you want, you can re-encrypt the resulting result with different encryption methods.
+
+
+--------------------------------------------------------- Türkçe ---------------------------------------------------------
+
+Cumulative Yöntemi İle Şifreleme
+
+A B C D E F G H I J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+
+Aşağıdaki verilen örnekde harflerin değerleri, soldan sağa birikimli Cumulative” yöntemi olarak toplanmış,bu toplamlar gerektiğinde yeteri kadar 29 eklenmesi/çıkarılması sonrası 3’e bölünerek sonuca gidilmiştir.
+
+Cyber
+
+C (3) / 3 = 1 ~ A
+
+Cy (3 + 25) / 3 = 9 ~ I
+
+Cyb (3 + 25 + 2) / 3 = 10 ~ J
+
+Cybe (3 + 25 + 2 + 5) / 3 = 11 ~ K
+
+Cyber (3 + 25 + 2 + 5 + 18) / 3 = 21 ~ U
+
+Şifrelenmiş Cevap: “AIJKU”
+
+İşlem uzadıkça harflerin değeri arttıyor, burada 29 harf sınırını geçseydi -29 çıkarma işlemini gerçekleştirmiş olacaktık.
+
+isterseniz çıkan sonucuda farklı şifreleme yöntemleri ile tekrar şifreleyebilirsiniz.
