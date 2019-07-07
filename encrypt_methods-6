@@ -1,0 +1,129 @@
+---------------------------------------------------- English ----------------------------------------------------
+  
+     Encryption:
+  Suppose the message is encrypted with the function y = (11x + 4) MOD26. Our encrypted 'MONEY' text.
+
+First of all we need to find the numerical values of a character in our plain text between 0 and 25 as in the given list.
+
+A-0
+B-1
+C-2
+D-3
+E 4
+.
+.
+.
+Y-24
+Z-25
+
+The appropriate numeric value of our 'MONEY' text shown is 12, 14, 13, 4 and 24.
+
+For each value here, we set the function y = (11x + 4) MOD26 previously determined.
+
+M: y = (11 * 12 + 4) MOD26 = 6 —–G
+
+O: y = (11 * 14 + 4) MOD26 = 2 - –C
+
+N: y = (11 * 13 + 4) MOD26 = 17 -
+
+E: y = (11 * 4 + 4) MOD26 = 22 —–W
+
+Y: y = (11 * 24 + 4) MOD26 = 8 —–I
+
+Imiz Our encrypted text they find becomes “GCRWI..
+
+
+      Decryption:
+
+Let's change the y function for decryption (decoding) as follows.
+
+x = (inverse (a) (y-b) MODm decoding function
+
+We said a = 11 and b = 4.
+
+Thus we can obtain x = inverse (11) (y-4) MOD26.
+
+Inverse26 (11) MOD26 = 19 and thus our decoding function is x = 19 (y-4) MOD26.
+
+Now, let's find our numerical value table, which is the value of a character in our encrypted text “GCRWI”. 6,2,17,22,8.
+
+G: x = 19 * (6-4) MOD26 = 12 - M
+
+C: x = 19 * (2-4) MOD26 = 14 ——O
+
+R: x = 19 * (17-4) MOD26 = 13 - N
+
+W: x = 19 * (22-4) MOD26 = 4 —–E
+
+I: x = 19 * (8-4) MOD26 = 24 - Y
+
+In this way, we reach the flat MONEY.
+
+For this encryption method you need to do this as your online site:
+> https://www.dcode.fr/affine-cipher
+> https://cryptii.com/pipes/affine-cipher
+
+---------------------------------------------------- Türkçe ----------------------------------------------------
+
+      Şifreleme:
+  Farzedelim ki mesaj y=(11x+4)MOD26 fonksiyonu ile şifrelensin.Şifreli metnimiz 'MONEY'.
+
+Öncelikle düz metnimizde ki her bir karakterin aşağıda verilen listedeki olduğu gibi 0 ile 25 arasındaki sayısal değerlerini bulmalıyız.
+
+A-0
+B-1
+C-2
+D-3
+E-4
+.
+.
+.
+Y-24
+Z-25
+
+Böylece 'MONEY' metnimizin uygun sayısal değerleri 12, 14, 13, 4 ve 24 tür.
+
+Buradaki her bir değer için daha önce belirlediğimiz y=(11x+4)MOD26 fonksiyonunu kullanırsak.
+
+M: y =(11*12+4)MOD26=6 —–G
+
+O: y =(11*14+4)MOD26= 2 —–C
+
+N: y=(11*13+4)MOD26=17 —–R
+
+E: y=(11*4+4)MOD26=22 —–W
+
+Y: y=(11*24+4)MOD26=8 —–I
+
+Böylece bulduğumuz şifreli metnimiz “GCRWI” olur.
+
+
+     Şifre çözümü:
+
+Şifre çözümü (deşifreleme) için y fonksiyonunu aşağıdaki gibi değiştirelim.
+
+x=(ters(a)(y-b)MODm deşifreleme fonksiyonumuz
+
+a=11 ve b=4 demiştik.
+
+Böylelikle x=ters(11)(y-4)MOD26yı elde edebiliriz.
+
+Ters(11)MOD26=19 ve bu şekilde deşifreleme fonksiyonumuz x=19(y- 4)MOD26 olur.
+
+Şimdi şifreli metnimiz olan “GCRWI” deki her bir karakterin karşılığı olan sayısal değeri tablomuzdan bulalım. 6,2,17,22,8 dir.
+
+G: x=19*(6-4)MOD26=12 ——M
+
+C: x=19*(2-4)MOD26=14 ——O
+
+R: x=19*(17-4)MOD26= 13 —-N
+
+W: x=19*(22-4)MOD26=4 —–E
+
+I: x=19*(8-4)MOD26=24 ——Y
+
+Bu sayede düz metnimize ulaşırız “MONEY”.
+
+Bu şifreleme yöntemi için online site olarak bunu kullanabilirsiniz: 
+> https://www.dcode.fr/affine-cipher
+>  https://cryptii.com/pipes/affine-cipher
