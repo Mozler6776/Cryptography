@@ -1,0 +1,53 @@
+----------------------------------------------------- English -----------------------------------------------------
+
+Encryption with Vigenere Password
+
+Vigenere Encryption method, a keyword and the entire text ranking with the fall in this password, the collection of letters, a new value is obtained.
+
+A B C D E F G H I J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+
+In order to obtain the Secret Text, we have identified 2 texts: open text and keywords.
+
+Clear text: W = 22 O = 13 R = 17 L = 11 D = 3
+
+KEYWORDS: E = 4 A = 0 R = 17 T = 19 H = 7
+
+= mod (26) method, we will reach the hidden text with the increment formula.
+
+= mode (26) => (22 + 4) - (14 + 0) - (17 + 17) - (11 + 19) - (3 + 7) // 26-14-34-30-10 Buddha letter values As AOIEK coincides and we reach our secret writing.
+
+Result = AOIEK
+
+In this way, we can create other secret writings..
+
+You can use this encryption method over the internet.
+
+You can encrypt and decrypt this site: https://www.cs.du.edu/~snarayan/crypt/vigenere.html
+
+----------------------------------------------------- Türkçe -----------------------------------------------------
+
+Vigenere Şifresi İle Şifreleme
+
+Vigenere Şifreleme yöntemi belirlenen bir anahtar kelime ve tüm metin sıra ile bu şifrede denk düşen harf ile toplanarak yerlerine yeni bir değer elde edilmektedir.
+
+A B C D E F G H I J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+0 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25
+
+Gizli Yazıyı elde etmek için,açık yazı ve anahtar kelime olmak üzere 2 metin belirledik.
+
+Açık yazı: W=22 O=13 R=17 L=11 D=3
+
+ANAHTAR KELİME: E=4 A=0 R=17 T=19 H=7
+
+=mod(26) yöntemi kullanarak arttırma formulü ile gizli yazıya ulaşacağız.
+
+=mod(26) => (22 + 4)-(14 + 0)-(17 + 17)-(11 + 19)-(3 + 7)//26-14-34-30-10 Buda harf değerleri olarak A-O-I-E-K denk geliyor ve gizli yazımıza ulaşıyoruz.
+
+Sonuç = AOIEK
+
+Bu şekilde diğer gizli yazıları oluşturabiliriz..
+
+Bu şifreleme yöntemini internet üzerinden kullanabilirsiniz.
+
+Bu sitede encrypt ve decrypt edebilirsiniz: https://www.cs.du.edu/~snarayan/crypt/vigenere.html
