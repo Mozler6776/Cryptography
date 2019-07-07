@@ -1,0 +1,44 @@
+
+----------------------------------------------------------- English -----------------------------------------------------------
+
+Encryption with Caesar Method
+
+A B C D E F G H I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+
+This method has more than one technique. The logic is the same.
+
+I'm going to tell you a few techniques.
+
+Rot5 technique: Each character of the text to be encrypted is encrypted by taking 5 lines after the alphabet.
+
+Sample ; Turning the word MEHMET in rot5, M = R, E = J, H = M, M = R, E = J, T = Y, result = RJMRJY
+Sample2; If we translate MEHMET in rot13, M = Z, E = R, H = U, M = Z, E = R, T = G, result = ZRUZRG
+
+You don't have to deal with it by counting one by one or memorizing it. There are many online sites on the Internet about Caesar encryption.
+
+rot13.com> When encrypt or decrypt, you must select one by one. It is case-sensitive.
+
+https://www.dcode.fr/caesar-cipher> Translates the word on all tracks and shows it on the right. Case insensitive.
+
+----------------------------------------------------------- Türkçe -----------------------------------------------------------
+
+Sezar Yöntemi İle Şifreleme
+
+A B C D E F G H I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26
+
+Bu yöntemin birden fazla tekniği vardır. Mantıkları aynıdır ama.
+
+Birkaç tekniğinden bahsedeceğim size. 
+
+Rot5 tekniği: şifrelenecek metnin her karakterinin alfabede 5 sıra sonrası alınarak şifrelenir.
+
+Örnek; MEHMET kelimesini rot5'de çevirecek olursak, M=R, E=J, H=M, M=R, E=J, T=Y sonuç= RJMRJY
+Örnek2; MEHMET kelimesini rot13'de çevirirsek, M=Z, E=R, H=U, M=Z, E=R, T=G sonuç= ZRUZRG
+
+Tek tek sayarak veya ezberleyek bununla uğraşmanıza gerek yok. İnternet üzerinde Sezar şifreleme ile ilgili birçok online site mevcut.
+
+rot13.com > Encrypt ya da decrypt ederken tek tek seçmeniz gerekir. Büyük-küçük harf duyarlıdır.
+
+https://www.dcode.fr/caesar-cipher > Kelimeyi tüm rotlarda çevirir ve sağda gösterir. Büyük-küçük harf duyarsızdır.
