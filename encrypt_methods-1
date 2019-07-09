@@ -1,5 +1,8 @@
 
 ------------------------------------------- English -------------------------------------------
+
+Encryption with permutation method
+
 helloworld
 h e l l o w o r l d
 1 2 3 4 5 1 2 3 4 5
@@ -32,6 +35,9 @@ We encoded the word helloworld with the Permutation formula and reached the text
 lohelrdwlo text by taking the letter values ​​we have made the numeric encryption.
 
 ------------------------------------------- Türkçe -------------------------------------------
+
+Permütasyon yöntemi ile Şifreleme
+
 helloworld
 h e l l o w o r l d
 1 2 3 4 5 1 2 3 4 5
